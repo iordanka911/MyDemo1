@@ -2,87 +2,52 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Spaceshop </title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
 </head>
 <body>
-    <h1>Space shop</h1>
-    <p>
-        space shop->T-shirt->spaceX
-        <br/>
-        Newwwww
-        You have selected T-shirt with the "falcon heavy" rocket.
-        Please fill out the form below in order to customize your 
-        T-shirt. Keep in mind that your order will arrive within 2 weeks!
-    </p>
-
-    <h2>T-shirt infomation:</h2>
-    <section>        
-      <label for="size">Size:</label>
-      <select name="size" id="size">
-          <option value="S">S</option>
-          <option value="M">M</option>
-          <option value="L">L</option>
-          <option value="XL">XL</option>
-          <option value="XXL">XXL</option>
-      </select>
-    </section>
-
-    <br/>
-
-      <section>        
-        <label for="color">Size:</label>
-        <select name="color" id="color">
-            <option value="yellow">yellow</option>
-            <option value="red">red</option>
-            <option value="blue">blue</option>
-            <option value="black">black</option>
-            <option value="green">green</option>
-        </select>
-      </section>
-
-      <br/>
-
-      <section>
-        <span>Variation</span>
-        <input type="radio" name="variation" id="Male" value="Male">
-        <label for="Male">Male</label>
-        <input type="radio" name="variation" id="Female" value="Female">
-        <label for="Female">Female</label>    
-      </section>
-
-      <h2>Delivery information:</h2>
-
-      <br/>
-
-      <section class="choose-city">
-          <label for="city">City:</label>
-          <select name="city" id="city">
-              <option value="Sofia">Sofia</option>
-              <option value="Plovdiv">Plovdiv</option>
-              <option value="Varna">Varna</option>              
-          </select>
-      </section>
-
-      <br/>
-
-      <section class="adress-info">
-        <label for="adress">Adress:</label>       
-        <textarea id="adress" name="adress" rows="3" cols="40"></textarea>
-      </section>
-
-      <br/>
-
-      <section class="nameOfReceiver">
-        <label for="nameOfReceiver">Person to receive the package:</label>
-        <input type="text" id="receiver" name="receiver"/>
-      </section>
-
-      <br/>
-
-      <section class="submission">
-        <input type="submit" value="Go back">
-        <input type="submit" value="Place order">
-      </section>
+    <header>
+        <h1>Navigational Links</h1>
+        <nav>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#posts">Posts</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
       
+      <main>
+        <section>
+          <article>
+            <h2>Facts About Dogs</h2>
+            <p>
+            Dogs have a sense of time. It's been proven that they know the difference between a hour and five. If conditioned to, they can predict future events, such as regular walk times.
+            </p>
+          </article>
+          <aside>
+            <p>A study was conducted on dogs being away from their owners for varying hours and the studies show that dogs who were away from their owners the longest showed the greatest amount of affection!
+            </p> 
+          </aside>
+        </section> 
+        <figure>
+          <img src="https://content.codecademy.com/courses/SemanticHTML/dogimage.jpeg"/>
+          <figcaption>A cute dog.</figcaption>
+        </figure>  
+        <audio controls>
+          <source src="https://content.codecademy.com/courses/SemanticHTML/dogBarking.mp3" type="audio/mp3">
+        </audio> 
+        <video src="https://content.codecademy.com/courses/SemanticHTML/dog-video.mp4" controls>
+        </video>
+        <embed src="https://content.codecademy.com/courses/SemanticHTML/dog-on-beach.gif"/>
+           
+      </main>
+      
+      <footer>
+        <p>Contact me at +1 234 567 8910 </p>
+      </footer>
+                
 </body>
 </html>
