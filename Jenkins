@@ -1,0 +1,18 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Git') {
+            steps {
+               git branch: 'main', credentialsId: 'my-new', url: 'git@github.com:iordanka911/MyDemo1.git'
+            }
+        }
+        
+        stage('GITSCM'){
+            steps{
+                checkout([$class: 'GitSCM', branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[credentialsId: 'my-new', url: 'git@github.com:iordanka911/MyDemo1.git']]])
+            }
+        }
+        
+    }
+}
