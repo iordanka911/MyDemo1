@@ -1,0 +1,42 @@
+1. Ubunu 20.04
+2. Installing and running Jenkins on Ubuntu
+Configuring Jenkins
+Manage Jenkins -> Manage Plugins 
+Generate the ssh key in Ubuntu 
+Copy the key in Github
+Configure in Jenkins Credentials
+Configure a sample job in Jenkins using SSH key
+
+Other commands that i Used
+ ssh-keygen
+sudo ssh iordanka911@192.168.100.187
+ /var/www/html$ sudo chgrp -R iordanka911 /var/www
+ cd /var/www
+ sudo apt-get install apache2
+ /etc/apache2/
+ --apache2.conf
+ -- apache2.conf
+ ls -la
+ sudo chmod -R g+rw /var/www
+ cd html
+ sudo chgrp -R iordanka911 /var/www
+ sudo chmod -R g+rw /var/www
+ ls -la
+ cd .ssh
+ reboot
+ p a
+ cd .ssh
+ cat id rsa
+ sudo apt-get install apache2
+ sudo systemctl status apache2
+ cat id rsa
+ cat~/.ssh/id_rsa
+ cat id rsa
+ cat ~/.ssh/id_rsa.pub
+ 
+ sudo systemctl enable jenkins
+ sudo systemctl status jenkins
+  sudo systemctl start jenkins
+  sudo -a -u jenkins
+ vim /etc/sysconfig/jenkins
+ 
